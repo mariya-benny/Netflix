@@ -1,0 +1,57 @@
+.row{
+    margin-left: 20px;
+    color:#fff;
+}
+
+.posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+.poster{
+    cursor: pointer;
+    max-height: 200px;
+    margin-right: 10px;
+    transition: all 0.2s ease;
+}
+/* .rowtitle{
+    padding-top: 5rem;
+} */
+
+.smallPoster{
+    cursor: pointer;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: all 0.2s ease;
+}
+.poster:hover{
+    transform:scale(1.1) ;
+    transition: all 0.2s ease;
+}
+
+.smallPoster:hover{
+    transform:scale(1.1) ;
+    transition: all 0.2s ease;
+}
+
+.youtube{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000aa;
+}
+
+.youtubeModule{
+    width: 70vw;
+}
